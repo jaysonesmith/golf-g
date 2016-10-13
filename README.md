@@ -13,7 +13,7 @@ Challenge page is [here.](http://codegolf.stackexchange.com/questions/95972/appe
 
 Both files when run take two arguments, the first being an integer of the dimension to be used (only one number since it outputs a square image) and the second is the file name.
 
-I had initially started attempting this with oily_png/chunky_png but RMagick's .ellipses made the drawing incredibly simple. The code starts by drawing the red portion of the circle-shape, continues counter-clockwise creating each additional section of the G, and caps everything off with the 'chin.'
+I had initially started attempting this with oily_png/chunky_png but RMagick's .ellipses made the drawing incredibly simple. The code starts by drawing the red portion of the circle-shape, continues counter-clockwise creating each additional section of the G, and caps everything off with the chin.
 
 ## How to run the file:
 You must have the rmagick gem installed. Example:
